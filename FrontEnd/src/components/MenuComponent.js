@@ -21,7 +21,7 @@ export default function MenuComponent({ dishes, addToCart, isLoggedIn, userId })
                 const data = { name, image, price, quantity };
                 console.log(data);
     
-                const response = await fetch(`https://merngfg.onrender.com/api/cart/${userId}`, {
+                const response = await fetch(`https://gfgclonemern001.onrender.com/api/cart/${userId}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
