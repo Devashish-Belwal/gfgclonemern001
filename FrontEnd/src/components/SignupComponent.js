@@ -17,7 +17,7 @@ export default function SignupComponent() {
         console.log(userData);
 
         try {
-            const response = await fetch('https://merngfg.onrender.com/api/auth/register', {
+            const response = await fetch('https://gfgclonemern001.onrender.com/api/auth/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
